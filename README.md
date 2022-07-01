@@ -12,7 +12,7 @@ This app use an external API of the COVID infection cases for different countrie
 - JavaScript
 
 ## Live Demo Links
-[View Demo](https://europe-covid-stats.netlify.app/@elyor-doniyorov)
+[View Demo](https://62bedb40cb556e4f45558615--peppy-cascaron-571d98.netlify.app/)
 
 ### Getting Started
 To get a local copy up and running follow these simple example steps.
