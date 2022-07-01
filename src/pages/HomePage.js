@@ -51,13 +51,15 @@ const HomePage = () => {
             to={{ pathname: `/country/${country.country}` }}
           >
             <li className="list-details">
-              <div className=" details">
-                <h1 className="name">{country.country}</h1>
-              </div>
-              <div>
-                <h2 className="pupalution">Population:</h2>
-                {' '}
-                <p className="number">{country.population.toLocaleString()}</p>
+              <div className="details-container">
+                <div className=" details">
+                  <h1 className="name">{country.country}</h1>
+                </div>
+                <div>
+                  <h2 className="popalution">Population:</h2>
+                  {' '}
+                  <p className="number">{country.population.toLocaleString()}</p>
+                </div>
               </div>
               <div className="photo">
                 <img

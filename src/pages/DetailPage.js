@@ -17,7 +17,7 @@ const DetailPage = () => {
   });
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid states-container">
       <div className="continent">
         <h1>{name}</h1>
         <img
@@ -27,48 +27,48 @@ const DetailPage = () => {
         />
       </div>
       <div>
+        <h3> Today&apos;s update</h3>
         <ul className="today">
-          <h3> Today&apos;s update:</h3>
-          <li>
-            <h4>New cases:</h4>
+          <li className="stats-list">
+            <p>New cases:</p>
             {' '}
             {findCountry.todays_cases.toLocaleString()}
           </li>
-          <li>
-            <h4>Confirmed deaths:</h4>
+          <li className="stats-list">
+            <p>Confirmed deaths:</p>
             {' '}
             {findCountry.todays_deaths.toLocaleString()}
           </li>
-          <li>
-            <h4>New Recoveries:</h4>
+          <li className="stats-list">
+            <p>New Recoveries:</p>
             {' '}
             {findCountry.todays_recovered.toLocaleString()}
           </li>
         </ul>
         <ul className="total">
-          <h3>Total:</h3>
-          <li>
-            <h4>Confirmed cases:</h4>
+          <h3>Total</h3>
+          <li className="stats-list">
+            <p>Confirmed cases:</p>
             {' '}
             {findCountry.total_cases.toLocaleString()}
           </li>
-          <li>
-            <h4>Recovered:</h4>
+          <li className="stats-list">
+            <p>Recovered:</p>
             {' '}
             {findCountry.total_recovered.toLocaleString()}
           </li>
-          <li>
-            <h4>Active Cases:</h4>
+          <li className="stats-list">
+            <p>Active Cases:</p>
             {' '}
             {findCountry.total_active.toLocaleString()}
           </li>
-          <li>
-            <h4>Total Tests:</h4>
+          <li className="stats-list">
+            <p>Total Tests:</p>
             {' '}
             {findCountry.total_tests.toLocaleString()}
           </li>
-          <li>
-            <h4>Deaths:</h4>
+          <li className="stats-list">
+            <p>Deaths:</p>
             {' '}
             {findCountry.total_deaths.toLocaleString()}
           </li>
