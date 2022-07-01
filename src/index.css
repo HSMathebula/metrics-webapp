@@ -136,11 +136,6 @@ a {
   padding: 0;
 }
 
-/* .today,
-.total {
-  text-align: start;
-} */
-
 .stats-list {
   display: flex;
   align-items: center;
