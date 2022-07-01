@@ -5,7 +5,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HomePage from '../pages/HomePage';
 import store from '../redux/configureStore';
-import DetailPage from '../pages/DetailPage';
 
 describe('Render components', () => {
   test('render navbar', () => {
