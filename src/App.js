@@ -7,10 +7,10 @@ function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Routes>
+      <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/country/:name" element={<DetailPage />} />
-      </Routes> */}
+      </Routes>
     </Router>
   );
 }
